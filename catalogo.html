@@ -26,9 +26,50 @@
             /* Para que sea responsiva */
             width: 100%;
         }
+        * {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:'Times New Roman', Times, serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+        .nav li a {
+				background-color:blue;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			.nav li a:hover {
+				background-color:#434343;
+			}
+            .fondo{
+                background-color: #839AA880;
+                border-radius: 15px;
+                margin-left: 30%;
+                margin-right: 30%;
+            }
     </style>
 </head>
 <body>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="index.html">fashions</a></li>
+            <li><a href="catalogo.html">catalogo</a></li>
+            <li><a href="">registrate</a></li>
+        </ul>
+    </div><br><br><br><br>
     <div class="fila">
         <div class="columna">
             <img src="https://picsum.photos/800/600">
