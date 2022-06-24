@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coppel-Rayo</title>
 </head>
 <center>
 <title>Menu Desplegable</title>
@@ -28,34 +28,41 @@
 			.nav > li {
 				float:left;
 			}
+			ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #FF9F29;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #FFDCAE;
+        }
 			
-			.nav li a {
-				background-color:blue;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
 			
-			.nav li a:hover {
-				background-color:#434343;
-			}
-            .fondo{
-                background-color: #839AA880;
-                border-radius: 15px;
-                margin-left: 30%;
-                margin-right: 30%;
-            }
+			
 		</style>
         
 <body style= "background-image: url(img1.webp)">
-    <div id="header">
-        <ul class="nav">
-            <li><a href="index.html">fashions</a></li>
-            <li><a href="catalogo.html">catalogo</a></li>
-            <li><a href="">registrate</a></li>
-        </ul>
-    </div><br><br><br><br>
+    <ul>
+        <li><a class="active" href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catalogo</a></li>
+        <li><a href="landin.html">Landingpage</a></li>
+      </ul>
+    <br><br><br><br>
     
         <h1 style="color: black ; font-family: algerian; ">OFERTAS DE TEMPORADA</h1><br><br><br><br>
         <div class="fondo">
